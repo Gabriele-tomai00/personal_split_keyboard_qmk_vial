@@ -1,8 +1,14 @@
-# gabriele
+# Firmware for my personal slit keyboard (inspired from UHK)
 
-![gabriele](imgur.com image replace me!)
+## Steps
+1) Move this git repository to kekboards repository of QMK
+2) use the command: 
+    `qmk compile -kb gabriele -km default` or directly `qmk flash -kb gabriele -km default` (you need a Rasberry Pi Pico linked and in flash mode)
 
-*A short description of the keyboard/project*
+
+
+
+<!-- *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Gabriele](https://github.com/Gabriele-tomai00)
 * Hardware Supported: *The PCBs, controllers supported*
@@ -24,4 +30,4 @@ Enter the bootloader in 3 ways:
 
 * **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
 * **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available -->
