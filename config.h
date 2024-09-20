@@ -1,6 +1,9 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN GP2
+#define I2C1_SCL_PIN GP3
 
     // [_BASE] = LAYOUT_g(
     //     KC_ESC,   KC_1,   KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,  KC_BSPC,
