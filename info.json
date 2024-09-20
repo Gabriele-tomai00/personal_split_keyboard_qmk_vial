@@ -3,7 +3,7 @@
     "url": "", 
     "maintainer": "qmk", 
     "layouts": {
-        "LAYOUT": {
+        "LAYOUT_g": {
             "layout": [
                 {"matrix": [0, 0], "label" : "esc",         "x": 0, "y": 0},
                 {"matrix": [0, 1], "label" : "1",           "x": 1, "y": 0},
