@@ -1,20 +1,21 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+// display
 #define I2C_DRIVER I2CD1
-#define I2C1_SDA_PIN GP2
-#define I2C1_SCL_PIN GP3
+#define I2C1_SDA_PIN GP23
+#define I2C1_SCL_PIN GP28
 
-    // [_BASE] = LAYOUT_g(
-    //     KC_ESC,   KC_1,   KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,  KC_BSPC,
+// encoders
+#define ENCODER_A_PINS  {GP21, GP26} // { encoder1a, encoder2a }
+#define ENCODER_B_PINS  {GP22, GP27} // { encoder1b, encoder2b }
 
-
-    //     KC_TAB,   KC_Q,   KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC,
-
-    //     KC_CAPS,  KC_A,   KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_BSLS, KC_ENT,
-
-    //     KC_LSFT,  KC_NUBS, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_RSFT, KC_NO, KC_UP,   KC_SLSH,
-
-    //     KC_LCTL,  KC_LGUI, KC_LALT, MO(1),                 KC_SPC,  KC_SPC,             MO(1), KC_NO,  KC_RALT,  KC_LEFT, KC_DOWN, KC_RGHT)
+#define ENCODER_RESOLUTION 8
 
 #endif
+
+
+// PIN UTILIZZABILI: 26
+// PIN PER MATRICE: 20
+// PIN FOR ENCODERS: 6
+// PIN FOR I2C DISPLAY: 2
