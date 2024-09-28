@@ -7,3 +7,4 @@ OPT_DEFS += -DHAL_USE_I2C=TRUE
 
 # Encoders
 ENCODER_ENABLE = yes
+
