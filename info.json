@@ -61,7 +61,6 @@
                 {"matrix": [3, 9], "label" : ",",           "x": 9, "y": 3},
                 {"matrix": [3, 10], "label" : ".",          "x": 10, "y": 3},
                 {"matrix": [3, 11], "label" : "-",          "x": 11, "y": 3},
-                {"matrix": [3, 12], "label" : " empty ",    "x": 12, "y": 3},
                 {"matrix": [3, 13], "label" : " UP ",       "x": 13, "y": 3},
                 {"matrix": [3, 14], "label" : " SHIFT2 ",   "x": 14, "y": 3},
 
@@ -71,7 +70,6 @@
                 {"matrix": [4, 4], "label" : "FN",          "x": 3.75, "y": 4, "w": 1.25},
                 {"matrix": [4, 6], "label" : "Space-left",  "x": 5, "y": 4, "w": 2},
                 {"matrix": [4, 8], "label" : "Space-right", "x": 7, "y": 4, "w": 2},
-                {"matrix": [4, 9], "label" : "FN",          "x": 9, "y": 4},
                 {"matrix": [4, 10], "label" : "ALT",        "x": 10, "y": 4},
                 {"matrix": [4, 11], "label" : "CTRL",    "x": 11, "y": 4},
                 {"matrix": [4, 12], "label" : "LEFT",       "x": 12, "y": 4},
