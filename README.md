@@ -1,7 +1,7 @@
 # Firmware for my personal slit keyboard (inspired from UHK)
 
 ## Steps
-1) Move this git repository to kekboards repository of QMK
+1) Move this git repository to keyboards repository of QMK
 2) use the command: 
     `qmk compile -kb gabriele -km default` or directly `qmk flash -kb gabriele -km default` (you need a Rasberry Pi Pico linked and in flash mode)
 
