@@ -6,6 +6,9 @@
     `qmk compile -kb split_keyboard_gabriele -km vial` or directly `qmk flash -kb split_keyboard_gabriele -km vial` (you need a Rasberry Pi Pico linked and in flash mode)
 
 
+![demo_scheme](images/layout.jpg)
+![demo_scheme](images/wired_schema.png)
+
 
 
 <!-- *A short description of the keyboard/project*
