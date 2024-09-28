@@ -1,6 +1,6 @@
 {
-    "manufacturer": "Gabriele",
-    "keyboard_name": "gabriele",
+    "manufacturer": "Gabriele Tomai",
+    "keyboard_name": "split_keyboard_gabriele",
     "maintainer": "Gabriele-tomai00",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
