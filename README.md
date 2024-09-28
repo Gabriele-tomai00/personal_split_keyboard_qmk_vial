@@ -1,7 +1,7 @@
-# Firmware for my personal slit keyboard (inspired from UHK)
+# Firmware for my personal split keyboard (inspired from UHK)
 
 ## Steps
-1) Move this git repository to keyboards repository of vial-qmk
+1) Move this git repository to keyboards repository of vial-qmk and rename it to "split_keyboard_gabriele"
 2) use the command (qmk compile -kb "name of the keyboard folder" -km "name of the keyboard layout that is vial if you want to use with vial): 
     `qmk compile -kb split_keyboard_gabriele -km vial` or directly `qmk flash -kb split_keyboard_gabriele -km vial` (you need a Rasberry Pi Pico linked and in flash mode)
 
