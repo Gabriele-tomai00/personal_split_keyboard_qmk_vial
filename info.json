@@ -74,7 +74,11 @@
                 {"matrix": [4, 11], "label" : "CTRL",    "x": 11, "y": 4},
                 {"matrix": [4, 12], "label" : "LEFT",       "x": 12, "y": 4},
                 {"matrix": [4, 13], "label" : "DOWN",       "x": 13, "y": 4},
-                {"matrix": [4, 14], "label" : "RIGHT",      "x": 14, "y": 4}
+                {"matrix": [4, 14], "label" : "RIGHT",      "x": 14, "y": 4},
+
+
+                {"matrix": [1, 15], "label" : "encoder-button",      "x": 16.75, "y": 1}
+
             ]
     }
 }

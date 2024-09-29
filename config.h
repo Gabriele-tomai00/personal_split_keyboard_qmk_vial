@@ -9,7 +9,7 @@
 // encoders
 #define NUM_ENCODERS 1
 
-#define ENCODER_A_PINS  {GP21, GP26} // { encoder1a, encoder2a }
+#define ENCODERS_PAD  {GP21, GP26} // { encoder1a, encoder2a }
 
 #define ENCODER_RESOLUTION 8
 
@@ -19,5 +19,3 @@
 // PIN PER MATRICE: 20
 // PIN FOR ENCODERS: 6
 // PIN FOR I2C DISPLAY: 2
-
-
