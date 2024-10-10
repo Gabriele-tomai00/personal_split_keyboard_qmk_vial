@@ -1,10 +1,10 @@
-OLED_ENABLE = yes
-OLED_DRIVER = ssd1306
-OLED_TRANSPORT = i2c
-LTO_ENABLE = yes
-OPT_DEFS += -DHAL_USE_I2C=TRUE
+#MOUSEKEY_ENABLE = yes	# Mouse keys(+4700) wins. specified in both info.json and rules.mk, the rules.mk value wins.
+#EXTRAKEY_ENABLE = yes	# Audio control and System control(+450) specified in both info.json and rules.mk, the rules.mk value wins.
 
 
 # Encoders
 ENCODER_ENABLE = yes
 
+#backlight
+BACKLIGHT_ENABLE = yes
+BACKLIGHT_DRIVER = pwm

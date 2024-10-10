@@ -2,6 +2,11 @@
     "manufacturer": "Gabriele Tomai",
     "keyboard_name": "split_keyboard_gabriele",
     "maintainer": "Gabriele-tomai00",
+    "backlight": {
+        "breathing": false,
+        "levels": 3,
+        "pin": "GP22"
+    },
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
