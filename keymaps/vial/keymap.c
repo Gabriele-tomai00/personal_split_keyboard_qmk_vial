@@ -68,18 +68,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 #if defined(ENCODER_MAP_ENABLE)
-const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [0] =   { ENCODER_CCW_CW(KC_VOLU, KC_VOLD),   },
     [1] =   { ENCODER_CCW_CW(KC_BRIU, KC_BRID),   },
     [2] =   { ENCODER_CCW_CW(KC_TRNS, KC_TRNS),   },
 };
 #endif
 
-// bool encoder_update_user(uint8_t index, bool clockwise) {
-//     if (clockwise) {
-//         tap_code(KC_VOLU);  // Aumenta il volume
-//     } else {
-//         tap_code(KC_VOLD);  // Diminuisce il volume
-//     }
-//     return false;
-// }
+
+bool encoder_update_user(uint8_t index, bool clockwise) {
+    if (clockwise) {
+        tap_code(KC_VOLU);  // Volume su
+    } else {
+        tap_code(KC_VOLD);  // Volume giù
+    }
+
+    uprintf("Encoder rotated: %s\n", clockwise ? "clockwise" : "counterclockwise");
+    return true;
+
+    return true;
+}
+
+
