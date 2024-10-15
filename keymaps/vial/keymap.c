@@ -76,17 +76,17 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
 #endif
 
 
-bool encoder_update_user(uint8_t index, bool clockwise) {
-    if (clockwise) {
-        tap_code(KC_VOLU);  // Volume su
-    } else {
-        tap_code(KC_VOLD);  // Volume giù
-    }
+// bool encoder_update_user(uint8_t index, bool clockwise) {
+//     if (clockwise) {
+//         tap_code(KC_VOLU);  // Volume su
+//     } else {
+//         tap_code(KC_VOLD);  // Volume giù
+//     }
 
-    uprintf("Encoder rotated: %s\n", clockwise ? "clockwise" : "counterclockwise");
-    return true;
+//     uprintf("Encoder rotated: %s\n", clockwise ? "clockwise" : "counterclockwise");
+//     return true;
 
-    return true;
-}
+//     return true;
+// }
 
 
