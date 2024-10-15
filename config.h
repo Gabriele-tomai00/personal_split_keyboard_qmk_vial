@@ -7,6 +7,8 @@
 // encoders
 #define NUM_ENCODERS 1
 
+#define ENCODERS_PAD_A { GP21 }
+#define ENCODERS_PAD_B { GP22 }
 
 
 
