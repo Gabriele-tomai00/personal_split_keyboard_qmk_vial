@@ -1,7 +1,11 @@
 {
     "keyboard_name": "split_keyboard_gabriele", 
+    "manufacturer": "Gabriele Tomai",
     "url": "", 
     "maintainer": "qmk", 
+    "backlight": {
+        "pin": "GP26"
+    },
     "layouts": {
         "LAYOUT_g": {
             "layout": [
@@ -49,6 +53,8 @@
                 {"matrix": [2, 13], "label" : "ù",      "x": 12.75, "y": 2},
                 {"matrix": [2, 14], "label" : "ENTER",  "x": 13.75, "y": 1, "w": 1.25, "h": 2},
 
+                {"matrix": [2, 15], "label" : "encoder-button",      "x": 16.75, "y": 1},
+
                 {"matrix": [3, 0], "label" : "SHIFT",       "x": 0, "y": 3},
                 {"matrix": [3, 1], "label" : "><",          "x": 1, "y": 3},
                 {"matrix": [3, 2], "label" : "Z",           "x": 2, "y": 3},
@@ -74,10 +80,7 @@
                 {"matrix": [4, 11], "label" : "CTRL",    "x": 11, "y": 4},
                 {"matrix": [4, 12], "label" : "LEFT",       "x": 12, "y": 4},
                 {"matrix": [4, 13], "label" : "DOWN",       "x": 13, "y": 4},
-                {"matrix": [4, 14], "label" : "RIGHT",      "x": 14, "y": 4},
-
-
-                {"matrix": [1, 15], "label" : "encoder-button",      "x": 16.75, "y": 1}
+                {"matrix": [4, 14], "label" : "RIGHT",      "x": 14, "y": 4}
 
             ]
     }

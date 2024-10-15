@@ -1,27 +1,28 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+// mouse
+#define MK_3_SPEED // velocità costante
+
 // encoders
 #define NUM_ENCODERS 1
-#define ENCODERS_PAD  {GP21, GP26} // { encoder1a, encoder2a }
-#define ENCODER_RESOLUTION 8
+// #define ENCODERS_PAD  {GP21, GP22}
 
-#define BACKLIGHT_PWM_DRIVER PWMD3
+#define ENCODER_A_PINS { GP21 }
+#define ENCODER_B_PINS { GP22 }
+
+#define ENCODER_RESOLUTION 1
+// #define MEDIA_KEY_DELAY 10
+
+
+// backlight
+#define BACKLIGHT_PWM_DRIVER PWMD5
 #define BACKLIGHT_PWM_CHANNEL RP2040_PWM_CHANNEL_A
+// #define BACKLIGHT_PIN GP26
+#define BACKLIGHT_ON_STATE 1 // to do: provare 1 per vedere se si accende di default
+
+#define BACKLIGHT_LIMIT_VAL 255 // no limit for the light level
 
 
-// #define BACKLIGHT_PWM_DRIVER RP2040_PWM_CHANNEL_A  // Assicurati che questo driver sia supportato
-// #define BACKLIGHT_PWM_CHANNEL 0                   // Scegli il canale PWM appropriato
-// #define BACKLIGHT_PIN GP23
-// #define BACKLIGHT_LEVELS 5
-// #define BACKLIGHT_CAPS_LOCK  	
-// #define BREATHING_PERIOD 6
-// #define BACKLIGHT_ON_STATE 1
-// #define BACKLIGHT_LIMIT_VAL 255
-// #define BACKLIGHT_DEFAULT_ON true
 
 #endif
-
-// PIN UTILIZZABILI: 26
-// PIN PER MATRICE: 20
-// PIN FOR ENCODERS: 6
