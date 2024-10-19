@@ -2,22 +2,21 @@
 
 
 // WHAT I WANT:
-// 15 cols and 5 rows
 
 /*                                   MY TARGET
 
-    GPIO: 0     1    2   3     4    5    6    7   8     9   10   11  12 (13)  14
+    GPIO:  0     1    2   3     4    5    6    7   8     9   10   11  12 (13)  14
          ┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬─────────┐
     16   │Esc │ 1  │  2 │  3 │  4 │  5 │  6 │  7 │  8 │  9 │  0 │  - │  + │  Backsp │
          ├────┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬──────┤
     17   │ Tab   │ Q  │  W │  E │  R │  T │  Y │ U  │  I │ O  │ P  │ [  │ ]  │Enter │
          ├───────┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┐     │
     18   │ Caps   │ A  │ S  │ D  │ F  │ G  │ H  │ J  │  K │  L │ ;  │ '  │ #  │     │
-         ├────┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬───┴┬────┤
-    19   │Shf │ <  │  Z │  X │  C │  V │  B │  N │  M │ ,  │  . │  -      │ ^  │ Shf│
-         ├────┴─┬──┴──┬─┴───┬┴────┼────┴────┼────┴────┼────┼────┼────┼────┼────┼────┤
-    20   │ Crtl │ WIN │ Alt │ FN  │  Space  │  Space  │ FN │ Alt│Ctr │ <  │ |  │ >  │
-         └──────┴─────┴─────┴─────┴─────────┴─────────┴────┴────┴────┴────┴────┴────┘
+         ├──────┬────┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴────┴┬────┤
+    19   │Shf   │ <  │  Z │  X │  C │  V │  B │  N │  M │ ,  │  . │  ? │     ^ │ Shf│
+         ├─────┬┴────┼────┴┬───┴─┬──┴────┴──┬─┴────┴────┴┬───┴─┬──┴────┴──┬────┼────┤
+    20   │ Crtl│ WIN │ Alt │ FN  │  Space   │   Space    │ FN  │ Alt │ <  │  | │ >  │
+         └─────┴─────┴─────┴─────┴──────────┴────────────┴─────┴─────┴────┴────┴────┘
 */
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -74,19 +73,4 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [2] =   { ENCODER_CCW_CW(KC_TRNS, KC_TRNS),   },
 };
 #endif
-
-
-// bool encoder_update_user(uint8_t index, bool clockwise) {
-//     if (clockwise) {
-//         tap_code(KC_VOLU);  // Volume su
-//     } else {
-//         tap_code(KC_VOLD);  // Volume giù
-//     }
-
-//     uprintf("Encoder rotated: %s\n", clockwise ? "clockwise" : "counterclockwise");
-//     return true;
-
-//     return true;
-// }
-
 

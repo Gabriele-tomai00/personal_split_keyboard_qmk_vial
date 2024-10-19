@@ -2,28 +2,19 @@
 #define CONFIG_H
 
 // mouse
-#define MK_3_SPEED // velocità costante
+#define MOUSEKEY_MOVE_DELTA 4
+#define MMOUSEKEY_MAX_SPEED	0
 
 // encoders
 #define NUM_ENCODERS 1
-
 #define ENCODERS_PAD_A { GP21 }
 #define ENCODERS_PAD_B { GP22 }
-
-
-
-#define ENCODER_RESOLUTION 1
-// #define MEDIA_KEY_DELAY 10
+#define ENCODER_RESOLUTION 4
 
 
 // backlight
 #define BACKLIGHT_PWM_DRIVER PWMD5
 #define BACKLIGHT_PWM_CHANNEL RP2040_PWM_CHANNEL_A
-// #define BACKLIGHT_PIN GP26
-#define BACKLIGHT_ON_STATE 1 // to do: provare 1 per vedere se si accende di default
-
-#define BACKLIGHT_LIMIT_VAL 255 // no limit for the light level
-
-
+#define BACKLIGHT_ON_STATE 1
 
 #endif
