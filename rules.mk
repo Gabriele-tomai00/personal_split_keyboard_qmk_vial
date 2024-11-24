@@ -7,3 +7,4 @@ ENCODER_ENABLE = yes
 #backlight
 BACKLIGHT_ENABLE = yes
 BACKLIGHT_DRIVER = pwm
+
