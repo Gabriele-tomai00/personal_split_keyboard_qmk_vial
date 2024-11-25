@@ -1,4 +1,12 @@
 # Firmware for my personal split keyboard (inspired from UHK)
+This it a modified vial-qmk firmware for my personal split keyboard. I created a keyboard by drawing it in 3d with fusion 360 and then printing it with my 3d printer. I soldered the various components (switches, diodes, encoders...) and connected everything to a Raspberry pi pico (type c version).
+I used an HDMI cable as the connection between the two parts (because it has 19 wires available). I know, it's not the best, but it's my first electronics job and I also wanted to save money!
+![demo_scheme](images/keyboard1.jpg)
+## Features
+- keyboard format: iso 60% modified to have arrows keys! (I'm not ready to give it up!)
+- button encoder: for volume control and screen brightness
+- type c port (type c / usb A cable is required to connect to pc)
+- VIAL software: i really liked VIAL because you only need a web browser to connect to the keyboard software and edit keys, create macros, combos and more)
 
 ## Steps
 1) Move this git repository to keyboards repository of vial-qmk and rename it to "split_keyboard_gabriele"
@@ -8,6 +16,7 @@
 
 ![demo_scheme](images/layout.jpg)
 ![demo_scheme](images/wired_schema.png)
+![demo_scheme](images/keyboard2.jpg)
 
 
 
