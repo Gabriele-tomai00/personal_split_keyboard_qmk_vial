@@ -7,8 +7,9 @@
 
 // encoders
 #define NUM_ENCODERS 1
-#define ENCODERS_PAD_A { GP21 }
-#define ENCODERS_PAD_B { GP22 }
+#define ENCODERS_PAD { GP21, GP22 } //vial requirements (but It sees that work with the next definitions too)
+// #define ENCODER_A_PINS { GP21 }
+// #define ENCODER_B_PINS { GP22 }
 #define ENCODER_RESOLUTION 4
 
 
