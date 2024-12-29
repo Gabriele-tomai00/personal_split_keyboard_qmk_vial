@@ -14,6 +14,8 @@
 
 
 // backlight
+#define BACKLIGHT_LEVELS 2 
+#define BACKLIGHT_LIMIT_VAL 128 //to avoid the maximum level of brightness (too high)
 #define BACKLIGHT_PWM_DRIVER PWMD5
 #define BACKLIGHT_PWM_CHANNEL RP2040_PWM_CHANNEL_A
 #define BACKLIGHT_ON_STATE 1
